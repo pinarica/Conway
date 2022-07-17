@@ -1,0 +1,23 @@
+all: gol 
+
+CC:=gcc
+EXT:=c
+FLAGS:=-std=c11 -lm -lpng16 -O3
+
+gameoflife.o: gameoflife.$(EXT)
+	$(CC) $(FLAGS) -c gameoflife.$(EXT) 
+
+png_util.o: png_util.$(EXT)
+	$(CC) $(FLAGS) -c png_util.$(EXT)
+
+gol: gameoflife.o png_util.o
+	$(CC) $(FLAGS) -o gol gameoflife.o png_util.o
+
+test: gol data.txt
+	./gol < data.txt
+
+clean:
+	rm *.o
+	rm gol
+	rm *.txt
+	rm slurm*

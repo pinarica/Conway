@@ -1,0 +1,28 @@
+#!/bin/bash --login
+#SBATCH --nodes=1
+#SBATCH --mem-per-cpu=10000
+#SBATCH --cpus-per-task=1
+#SBATCH --time=00:20:00
+
+module load GCCcore/9.3.0
+module load libpng/1.6.37
+
+make clean
+make
+
+mkdir -p serial_optimized_times
+
+for n in {1..50};
+do
+    ((size = n*25));
+    echo $n*25 | bc;
+
+    for i in {1..25};
+    do
+
+    { time echo "0 $size 500" | ./gol; } 2>> time_{$size}.txt
+ 
+    done
+    mv time_{$size}.txt serial_optimized_times
+done
+
