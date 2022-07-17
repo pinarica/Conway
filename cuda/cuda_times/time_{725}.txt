@@ -1,0 +1,100 @@
+
+real	0m0.256s
+user	0m0.066s
+sys	0m0.176s
+
+real	0m0.253s
+user	0m0.070s
+sys	0m0.172s
+
+real	0m0.256s
+user	0m0.070s
+sys	0m0.172s
+
+real	0m0.253s
+user	0m0.068s
+sys	0m0.168s
+
+real	0m0.254s
+user	0m0.058s
+sys	0m0.184s
+
+real	0m0.263s
+user	0m0.063s
+sys	0m0.181s
+
+real	0m0.254s
+user	0m0.066s
+sys	0m0.176s
+
+real	0m0.254s
+user	0m0.071s
+sys	0m0.170s
+
+real	0m0.268s
+user	0m0.070s
+sys	0m0.171s
+
+real	0m0.254s
+user	0m0.067s
+sys	0m0.174s
+
+real	0m0.254s
+user	0m0.067s
+sys	0m0.175s
+
+real	0m0.255s
+user	0m0.065s
+sys	0m0.177s
+
+real	0m0.253s
+user	0m0.065s
+sys	0m0.173s
+
+real	0m0.254s
+user	0m0.071s
+sys	0m0.171s
+
+real	0m0.251s
+user	0m0.063s
+sys	0m0.174s
+
+real	0m0.250s
+user	0m0.063s
+sys	0m0.176s
+
+real	0m0.253s
+user	0m0.073s
+sys	0m0.167s
+
+real	0m0.250s
+user	0m0.069s
+sys	0m0.171s
+
+real	0m0.251s
+user	0m0.071s
+sys	0m0.169s
+
+real	0m0.252s
+user	0m0.068s
+sys	0m0.172s
+
+real	0m0.252s
+user	0m0.070s
+sys	0m0.170s
+
+real	0m0.250s
+user	0m0.066s
+sys	0m0.174s
+
+real	0m0.253s
+user	0m0.069s
+sys	0m0.173s
+
+real	0m0.251s
+user	0m0.066s
+sys	0m0.174s
+
+real	0m0.252s
+user	0m0.069s
+sys	0m0.172s
