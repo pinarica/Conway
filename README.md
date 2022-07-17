@@ -12,7 +12,7 @@ Following the initial instructions from 0318-HW3_CUDA in section 1., I immediatl
     make
     echo "0 10" | ./gol
     
-![image.png](attachment:image.png)
+![png](README_files/libpngerror.png)
 
 I had already loaded in the modules I thought I needed after my first attempt at using the `make` command, the modules I chose where the same ones I used in HW2, these modules being:
 
