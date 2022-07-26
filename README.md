@@ -7,7 +7,7 @@ By: Ricardo Pina
 
 ## TroubleShooting
 
-Following the initial instructions from 0318-HW3_CUDA in section 1., I immediatley received the following errors after these steps:
+Following the initial instructions from 0318-HW3_CUDA in section 1. I immediatley received the following errors after these steps:
     
     make
     echo "0 10" | ./gol
@@ -39,12 +39,7 @@ so in my bash files I have the following lines to run the serial code:
 
 with the makefile having the appropriate flag
 
-## Directions for your instructor
-
-Include detailed instructions for compiling and reproducing the results you have in this report.  Automate as much of the steps as possible to help speed up grading.
-
-
-A good idea is to show your specific commands here in the jupyter notebook.  Use the exclamation point (!) to run bash commands inside of jupyter. For example:
+## Directions
 
 To get the data I used for this project I run the sbatch file in each of the directories were I solved Conways Game, and wait for the rquired time; for the serial optimized I had to wait 15 minutes for all data. Then I used this notebook to get all the data once I used git clone on my local repository for this project.
 
